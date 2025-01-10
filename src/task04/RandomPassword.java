@@ -1,6 +1,6 @@
 package task04;
 
-public class RastgeleParola {
+public class RandomPassword {
     public static void main(String[] args) {
         String password="";
         for (int i = 0; i < GiveARandomNumber(7,10); i++) {

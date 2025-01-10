@@ -2,7 +2,7 @@ package task01;
 
 import java.util.*;
 
-public class DiziBirlestirme {
+public class ArrayMerge {
     public static void main(String[] args) {
         Scanner read=new Scanner(System.in);
         System.out.print("Array 1 elements = ");
@@ -21,6 +21,5 @@ public class DiziBirlestirme {
             ts.add(Integer.valueOf(array2[i]));
         }
         System.out.println("ts = " + ts);
-
     }
 }
